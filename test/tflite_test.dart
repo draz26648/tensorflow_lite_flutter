@@ -3,7 +3,7 @@
 
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_tflite/tflite.dart';
+import 'package:flutter_tflite/flutter_tflite.dart';
 
 
 void main() {

@@ -6,11 +6,9 @@ import 'dart:math';
 import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_tflite/tflite.dart';
+import 'package:flutter_tflite/flutter_tflite.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:image/image.dart' as img;
-
-
 
 void main() => runApp(new App());
 
@@ -373,7 +371,8 @@ class _MyAppState extends State<MyApp> {
                 decoration: BoxDecoration(
                     image: DecorationImage(
                         alignment: Alignment.topCenter,
-                        image: MemoryImage(Uint8List.fromList(_recognitions.map<int>((e) => e as int).toList())),
+                        image: MemoryImage(Uint8List.fromList(
+                            _recognitions.map<int>((e) => e as int).toList())),
                         fit: BoxFit.fill)),
                 child: Opacity(opacity: 0.3, child: Image.file(_image))),
       ));
