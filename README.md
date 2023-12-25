@@ -501,7 +501,7 @@ var result = await runPoseNetOnFrame(
 
 ### Prediction in Static Images
 
-  Refer to the [example](https://github.com/draz26648/flutter_tflite/tree/master/example).
+  Refer to the [example](https://github.com/draz26648/tensorflow_lite_flutter/tree/master/example).
 
 ## Run test cases
 
