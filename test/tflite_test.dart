@@ -3,7 +3,8 @@
 
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_tflite/flutter_tflite.dart';
+import 'package:tensorflow_lite_flutter/tensorflow_lite_flutter.dart';
+
 
 
 void main() {

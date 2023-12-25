@@ -59,7 +59,6 @@ Solutions to build errors on iOS:
   However, for early versions of tensorflow the header path is "tensorflow/contrib/lite/kernels".
 
   Use `CONTRIB_PATH` to toggle the path. Uncomment `//#define CONTRIB_PATH` from here:
-  https://github.com/shaqian/flutter_tflite/blob/master/ios/Classes/TflitePlugin.mm#L1
 
 ## Usage
 
@@ -74,7 +73,7 @@ Solutions to build errors on iOS:
 2. Import the library:
 
 ```dart
-import 'package:tflite/tflite.dart';
+import 'package:tensorflow_lite_flutter/tensorflow_lite_flutter.dart';
 ```
 
 3. Load the model and labels:
@@ -502,11 +501,7 @@ var result = await runPoseNetOnFrame(
 
 ### Prediction in Static Images
 
-  Refer to the [example](https://github.com/shaqian/flutter_tflite/tree/master/example).
-
-### Real-time detection
-
-  Refer to [flutter_realtime_Detection](https://github.com/shaqian/flutter_realtime_detection).
+  Refer to the [example](https://github.com/draz26648/flutter_tflite/tree/master/example).
 
 ## Run test cases
 

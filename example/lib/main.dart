@@ -6,8 +6,8 @@ import 'dart:math';
 import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_tflite/flutter_tflite.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:tensorflow_lite_flutter/tensorflow_lite_flutter.dart';
 import 'package:image/image.dart' as img;
 
 void main() => runApp(new App());
