@@ -1,8 +1,10 @@
-import 'dart:typed_data';
+// ignore_for_file: deprecated_member_use
+
 
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:tflite/tflite.dart';
+import 'package:flutter_tflite/tflite.dart';
+
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
