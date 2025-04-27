@@ -1,11 +1,8 @@
 // ignore_for_file: deprecated_member_use
 
-
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:tensorflow_lite_flutter/tensorflow_lite_flutter.dart';
-
-
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
